@@ -70,7 +70,6 @@
                 float: left;
                 line-height: 1.71;
                 font-weight: 600;
-
             }
 
             p b {
@@ -117,6 +116,13 @@
                 color: #E91F45;
                 text-decoration: none;
             }
+
+            @media (max-width: 768px) {
+                .intro-content {
+                    font-size:20px;
+                }
+
+            }
         </style>
 
     </head>
@@ -131,7 +137,8 @@
                 <div class="menu-row">
                     <div>
                         <h3>
-                            <a class="tab-button selected">LIAM BOLLING</a>
+                            <a class="tab-button selected hidden-xs">LIAM BOLLING</a>
+                            <a class="tab-button selected visible-xs">LIAM</a>
                         </h3>
                     </div>
                     <div>
@@ -146,7 +153,8 @@
                     </div>
                     <div>
                         <h3>
-                            <a href="networks/index.html" class="tab-button deselected">SOCIAL & PRESS</a>
+                            <a href="networks/index.html" class="tab-button deselected hidden-xs">SOCIAL & PRESS</a>
+                            <a href="networks/index.html" class="tab-button deselected visible-xs">SOCIAL</a>
                         </h3>
                     </div>
                 </div>
